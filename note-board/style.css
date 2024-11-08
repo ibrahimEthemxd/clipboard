@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+
+html,
+body{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 10px;
+    background-image: url(bg.avif);
+    background-size: cover;
+}
+
+#add{
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #CB1718;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#add i{
+    margin-right: 1rem;
+    font-weight: bold;
+}
+#add:active{
+    transform: scale(0.98);
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 140rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+    margin: 0 auto;
+}
+.notes{
+    background-color: #ddd;
+    width: 40rem;
+    height: 40rem;
+    color: #000;
+    position: relative; 
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 1px 25px black;
+}
+.notes img{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 1rem;
+    left: 1.5rem;
+}
+.notes .tools{
+    background-color: #fB7718;
+    height: 6rem;
+    text-align: end;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.notes .btn{
+    background-color: transparent;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem 0;
+    cursor: pointer;
+    margin-right: 1.3rem;
+}
+textarea{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #f1f1f1;
+    padding: 2.5rem;
+    width: 40rem;
+    height: 34rem;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    letter-spacing: 0.5px;
+}
+
+.main{
+    height: 34rem;
+    background-color: #bab1b1;
+    color: #fff;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.hidden{
+    display: none;
+}
